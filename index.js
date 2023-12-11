@@ -1,5 +1,5 @@
 let nomeHeroi = "Rocket";
-let saldo = soma(140,50)
+let saldo = soma(140,30)
 let nivel
 
 
@@ -19,7 +19,7 @@ nivel = "ferro"
     nivel = "diamante"
 } else if (saldo <= 100){
     nivel = "lendário"
-} else if (saldo >= 101){
+} else {
     nivel = "imortal"
 }
 
